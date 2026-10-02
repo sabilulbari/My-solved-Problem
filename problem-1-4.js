@@ -31,15 +31,29 @@ var makeNegative = function (number) {
    return number > 0 ? -number : number
 };
 
+// Problem Node. 05
 var opposite = function (number) {
 
     const ops = number * -1;
     return ops
 };
 
+// Problem Node. 06
+var simpleArraySum = function (arrs) {
+
+    let arrSum = 0
+    for(let arr of arrs){
+        arrSum = arrSum + arr 
+    }
+    console.log(arrSum);
+};
+
+
 
 // console.log(solveMeFirst(2, 3));
 // console.log(multiply(4, 5));
 // console.log(evenOrOdd(7));
 // console.log(makeNegative(-0));
-console.log(opposite(10000));
+// console.log(opposite(10000));
+
+simpleArraySum([1, 2, 3, 4]);
