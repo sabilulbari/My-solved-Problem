@@ -21,6 +21,14 @@ var evenOrOdd = function (number) {
     return type
 };
 
+var makeNegative = function (number) {
+
+   return number > 0 ? -number : number
+};
+
+
 // console.log(solveMeFirst(2, 3));
 // console.log(multiply(4, 5));
 // console.log(evenOrOdd(7));
+
+console.log(makeNegative(-0));
