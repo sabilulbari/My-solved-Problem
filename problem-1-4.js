@@ -57,6 +57,14 @@ var sleepIn = function (weekday, vacation) {
     }
 };
 
+// Problem Node. 08
+var monkeyTrouble = function (aSmile, bSmile) {
+    if(aSmile === bSmile){
+        return true
+    }else{
+        return false
+    }
+};
 
 
 
@@ -67,4 +75,5 @@ var sleepIn = function (weekday, vacation) {
 // console.log(opposite(10000));
 
 // console.log(simpleArraySum([1, 2, 3, 4]));
-console.log(sleepIn(false, false));
+// console.log(sleepIn(false, false));
+console.log(monkeyTrouble(true, true));
