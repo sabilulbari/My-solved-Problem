@@ -45,8 +45,18 @@ var simpleArraySum = function (arrs) {
     for(let arr of arrs){
         arrSum = arrSum + arr 
     }
-    console.log(arrSum);
+    return arrSum;
 };
+
+// Problem Node. 07
+var sleepIn = function (weekday, vacation) {
+    if(weekday == true || vacation == false){
+        return false
+    }else{
+        return true
+    }
+};
+
 
 
 
@@ -56,4 +66,5 @@ var simpleArraySum = function (arrs) {
 // console.log(makeNegative(-0));
 // console.log(opposite(10000));
 
-simpleArraySum([1, 2, 3, 4]);
+// console.log(simpleArraySum([1, 2, 3, 4]));
+console.log(sleepIn(false, false));
